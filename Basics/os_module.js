@@ -61,5 +61,15 @@ console.log(`Version is ${version}`);
 const osconstants = os.constants.signals;
 console.log(`OS constants are ${osconstants.SIGSYS}`);
 
+// Alternative / direct way
 
+console.log(`The system uptime is ${os.uptime()} seconds`);
 
+const currentOS = {
+    name: os.type(),
+    release : os.release(),
+    totalmem: os.totalmem(),
+    freeMem: os.freemem(),
+}
+
+console.log(currentOS);
