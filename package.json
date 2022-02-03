@@ -4,7 +4,7 @@
   "description": "Exploring Nodejs functionality",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon lodash.js"
   },
   "repository": {
     "type": "git",
