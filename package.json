@@ -4,7 +4,7 @@
   "description": "Exploring Nodejs functionality",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon axios.js"
+    "start": "nodemon axios/main.js"
   },
   "repository": {
     "type": "git",
